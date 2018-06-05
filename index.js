@@ -18,7 +18,7 @@ function currentLine(katzDeliLine) {
   }
   
   for (var i = 0; i < katzDeliLine.length; i++) {
-    string += `${i}. ${katzDeliLine[i]}`;
+    string += `${i + 1}. ${katzDeliLine[i]}`;
     
     if (i != katzDeliLine.length - 1) {
       string += ", ";
