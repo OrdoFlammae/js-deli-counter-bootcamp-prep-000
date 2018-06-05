@@ -1,5 +1,6 @@
 function takeANumber(katzDeliLine, name) {
-  return katzDeliLine.indexOf(name) + 1;
+  katzDeliLine.push(name);
+  return katzDeliLine.length;
 }
 
 function nowServing(katzDeliLine) {
